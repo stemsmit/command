@@ -326,7 +326,14 @@ h1, h2, h3, h4, h5, h6, p {
   .header h2 {
     font-weight: 400; }
   .header .button {
-    margin: 30px; }
+    margin: 30px 10px 40px 10px; }
+
+.header__callout {
+  position: absolute;
+  top: 5px;
+  left: 5px; }
+  .header__callout a {
+    color: white; }
 
 .header__logo {
   width: 50px; }
@@ -377,17 +384,23 @@ h1, h2, h3, h4, h5, h6, p {
 
 .button {
   display: inline-block;
-  background: #7ED321;
-  color: white;
   text-decoration: none;
   padding: 10px 20px;
   font-weight: 700;
   border-radius: 3px;
   border: none;
-  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3); }
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+  color: #333; }
   .button:hover {
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4); }
   .button:focus {
     outline: none; }
   .button:active {
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3); }
+
+.button--primary {
+  background: #7ED321;
+  color: white; }
+
+.button--secondary {
+  background: white; }
