@@ -322,7 +322,7 @@ h1, h2, h3, h4, h5, h6, p {
   background: #FF475E;
   color: white;
   text-align: center;
-  padding: 60px 0; }
+  padding: 60px 20px; }
   .header h2 {
     font-weight: 400; }
   .header .button {
@@ -333,7 +333,8 @@ h1, h2, h3, h4, h5, h6, p {
 
 .header__gif {
   border-radius: 5px;
-  width: 500px; }
+  width: 500px;
+  max-width: 90%; }
 
 .header__social {
   margin-top: 10px; }
@@ -356,6 +357,7 @@ h1, h2, h3, h4, h5, h6, p {
   clear: both;
   display: block;
   width: 500px;
+  max-width: 90%;
   border-radius: 3px;
   margin: 20px auto; }
 
