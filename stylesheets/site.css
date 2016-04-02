@@ -392,13 +392,18 @@ h1, h2, h3, h4, h5, h6, p {
   width: 500px;
   max-width: 90%;
   border-radius: 3px;
-  margin: 20px auto; }
+  margin: 20px auto;
+  background: #fff;
+  padding: 10px 5px; }
 
 .command--green {
   background: #7ED321; }
 
 .command--blue {
   background: #4A90E2; }
+
+.command--red {
+  background: #FF475E; }
 
 .footer {
   background: #FF475E;
