@@ -329,9 +329,15 @@ h1, h2, h3, h4, h5, h6, p {
 .header__callout {
   position: absolute;
   top: 10px;
-  left: 10px; }
+  left: 10px;
+  vertical-align: top; }
   .header__callout a {
     color: white; }
+  .header__callout p {
+    display: inline;
+    position: relative;
+    top: -4px;
+    left: -12px; }
 
 .header__logo {
   width: 50px; }
@@ -501,4 +507,8 @@ h1, h2, h3, h4, h5, h6, p {
 
   .browser-support {
     padding: 10px;
-    margin-bottom: 30px; } }
+    margin-bottom: 30px; }
+
+  .github-corner svg {
+    height: 40px;
+    width: 40px; } }
