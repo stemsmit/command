@@ -12,7 +12,7 @@ dotenv.config()
 
 const API_BASE = 'https://api-v2launch.trakt.tv/search'
 const TRAKT_BASE = 'https://trakt.tv/movies/'
-const TRAKT_API_KEY = proces.env.TRAKT_API_KEY
+const TRAKT_API_KEY = process.env.TRAKT_API_KEY
 
 let search = (query, options={}) => {
 	return $.ajax({
