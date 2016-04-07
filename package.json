@@ -5,9 +5,9 @@
   "private": true,
   "scripts": {
     "start": "npm run dev",
-    "dev": "NODE_ENV=development ./node_modules/.bin/babel-node ./dev-env/dev.js",
-    "build": "NODE_ENV=production ./node_modules/.bin/babel-node ./dev-env/build.js",
-    "release": "NODE_ENV=production ./dev-env/release"
+    "dev": "SET NODE_ENV=development & babel-node ./dev-env/dev.js",
+    "build": "SET NODE_ENV=production & babel-node ./dev-env/build.js",
+    "release": "SET NODE_ENV=production & sh ./dev-env/release"
   },
   "keywords": [],
   "jshintConfig": {
@@ -23,7 +23,7 @@
     "lodash.indexby": "^3.1.1",
     "lodash.pluck": "^3.1.2",
     "rangy": "^1.3.0",
-    "react": "0.14.7",
+    "react": "0.14.8",
     "react-dom": "^0.14.7",
     "react-native-listener": "^1.0.1",
     "react-spinner": "^0.2.3",

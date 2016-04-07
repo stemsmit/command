@@ -1,4 +1,6 @@
 {
+  "name": "Command - Stemsmit",
+  "version": "1.1",
   "manifest_version": 2,
   "homepage_url": "https://github.com/jessepollak/command",
   "background": {
@@ -27,5 +29,5 @@
   "web_accessible_resources": [
     "icons/*"
   ],
-  "content_security_policy": "script-src 'self'; media-src 'self';"
+  "content_security_policy": "script-src 'self'; media-src 'self'; object-src 'self';"
 }
